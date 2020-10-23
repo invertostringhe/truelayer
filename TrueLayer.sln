@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrueLayer.WebApi", "src\TrueLayer.WebApi\TrueLayer.WebApi.csproj", "{1BE667BF-18C8-429C-820F-BAB0A3BA3F5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{80E67F59-61E4-4478-BA9B-EF32E0AE8940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrueLayer.Tests", "test\TrueLayer.Tests\TrueLayer.Tests.csproj", "{1AC9B77D-0336-4F16-B039-8A1AAD751759}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BE667BF-18C8-429C-820F-BAB0A3BA3F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BE667BF-18C8-429C-820F-BAB0A3BA3F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BE667BF-18C8-429C-820F-BAB0A3BA3F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BE667BF-18C8-429C-820F-BAB0A3BA3F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC9B77D-0336-4F16-B039-8A1AAD751759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC9B77D-0336-4F16-B039-8A1AAD751759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC9B77D-0336-4F16-B039-8A1AAD751759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC9B77D-0336-4F16-B039-8A1AAD751759}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1AC9B77D-0336-4F16-B039-8A1AAD751759} = {80E67F59-61E4-4478-BA9B-EF32E0AE8940}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {53A2645B-07B8-4CDC-9D3A-1FC2D1A2AEFF}
+	EndGlobalSection
+EndGlobal
